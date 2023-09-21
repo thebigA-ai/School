@@ -15,7 +15,8 @@ def hex_to_dec(hex_number):  # converts hexadecimal to decimal
 
 
 # TASK 2
-def hex_sum(text):  # the function gets string as input and seperate the strings to the diffrente hexadecimal numbers and prints the sum
+def hex_sum(
+        text):  # the function gets string as input and seperate the strings to the diffrente hexadecimal numbers and prints the sum
     sum = 0
     bad_letter = '[ghijklmnopqrstuvwxyz]'
     hex_list = re.split(bad_letter, text.lower())
@@ -24,8 +25,9 @@ def hex_sum(text):  # the function gets string as input and seperate the strings
 
     print(sum)
 
+
 # TASK 3
-def number_reader():  #function gets numbers from the user until something is not a number is enterd and returns the avrage and median of the numbers
+def number_reader():  # function gets numbers from the user until something is not a number is enterd and returns the avrage and median of the numbers
     digit = "0"
     number_list = []
     a = True
@@ -53,7 +55,6 @@ def number_reader():  #function gets numbers from the user until something is no
 hex_number = input("insert a hexadecimal number: ")
 hex_to_dec(hex_number)
 '''
-
 
 # TASK 2 implementation
 '''

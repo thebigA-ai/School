@@ -50,7 +50,7 @@ def morse_file_translator(file_name):
             english += morse_dictionary.get(i, "!")
 
         for i in english:
-            if(i=="!"):
+            if (i == "!"):
                 print("Error in Morse Code")
                 break
         else:
@@ -59,4 +59,3 @@ def morse_file_translator(file_name):
 
     except FileNotFoundError:
         print("error in file name")
-
