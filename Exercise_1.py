@@ -15,8 +15,7 @@ def hex_to_dec(hex_number):  # converts hexadecimal to decimal
 
 
 # TASK 2
-def hex_sum(
-        text):  # the function gets string as input and seperate the strings to the diffrente hexadecimal numbers and prints the sum
+def hex_sum(text):  # the function gets string as input and seperate the strings to the diffrente hexadecimal numbers and prints the sum
     sum = 0
     bad_letter = '[ghijklmnopqrstuvwxyz]'
     hex_list = re.split(bad_letter, text.lower())
